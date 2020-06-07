@@ -1,0 +1,136 @@
+/* top bar container */
+.container-bar {
+    float: right;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 10px 30px;
+   /* background-color: rgba(159, 236, 255, 0.87); */
+}
+
+a {
+    color:rgba(0, 0, 0, .8);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+.gm {
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.im {
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.squares {
+    display: inline-block;
+    padding-right: 15px;
+}
+
+.sq-img {
+    display: inline-block;
+    background-image: url("apps-icon.png");
+    background-size: 100%;
+    vertical-align: middle;
+    height: 15px;
+    width: 15px;
+}
+
+.user {
+    display: inline-block;
+}
+
+.user-img {
+    display: inline-block;
+    background-image: url("user-icon.png");
+    background-size: 100%;
+    vertical-align: middle;
+    height: 30px;
+    width: 30px;
+}
+
+.content {
+    clear: right;
+    position: relative;
+    display: block;
+    margin: auto;
+    width: 100%;
+    top: 140px;
+   /* background-color: rgba(255, 148, 136, 0.719); */
+}
+
+.goo-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.sb {
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+}
+
+input[type=text] {
+    width: 480px;
+    height: 44px;
+    border: 1px solid rgb(163, 161, 161);
+    box-shadow: none;
+    border-radius: 24px;
+    border-width: thin;
+}
+
+.botns {
+    position: relative;
+    margin: auto;
+    width: fit-content;
+   /* background-color: slateblue; */ 
+}
+
+.go-se {
+    position: relative;
+    display: inline-block;
+    color: rgb(95, 99, 104);
+    background-color: rgb(242, 242, 242);
+    border: 1px solid rgb(242, 242, 242);
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    text-align: center;
+}
+
+.i-am {
+    position: relative;
+    display: inline-block;
+    color: rgb(95, 99, 104);
+    background-color: rgb(242, 242, 242);
+    border: 1px solid rgb(242, 242, 242);
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    text-align: center;
+}
+
+.sentence {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    text-align: center;
+    margin-top: 160px;
+}
+
+.country {
+    text-decoration: none;
+    color: rgb(0, 0, 194);
+}
