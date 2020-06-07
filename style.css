@@ -32,7 +32,7 @@ a {
 
 .sq-img {
     display: inline-block;
-    background-image: url("apps-icon.png");
+    background-image: url("images/apps-icon.png");
     background-size: 100%;
     vertical-align: middle;
     height: 15px;
@@ -45,7 +45,7 @@ a {
 
 .user-img {
     display: inline-block;
-    background-image: url("user-icon.png");
+    background-image: url("images/user-icon.png");
     background-size: 100%;
     vertical-align: middle;
     height: 30px;
@@ -53,7 +53,7 @@ a {
 }
 
 .content {
-    clear: right;
+    clear: right; /* sooooo important! */
     position: relative;
     display: block;
     margin: auto;
@@ -79,10 +79,9 @@ input[type=text] {
     width: 480px;
     height: 44px;
     border: 1px solid rgb(163, 161, 161);
-    box-shadow: none;
     border-radius: 24px;
     border-width: thin;
-    background-image: url("search-icon.png"), url("mic-icon.jpg");
+    background-image: url("images/search-icon.png"), url("images/mic-icon.jpg");
     background-size:3%, 5%;
     background-position: 20px 16px, 435px 11px;
     background-repeat: no-repeat;
@@ -92,7 +91,7 @@ input[type=text] {
 .botns {
     position: relative;
     margin: auto;
-    width: fit-content;
+    width: fit-content; /* check why? */
    /* background-color: slateblue; */ 
 }
 
@@ -161,8 +160,8 @@ input[type=text] {
 
 ul {
     position: fixed;
-    margin: 0 auto;                      /* understain why?? */
-    padding: 0;                     /* understain why?? */
+    margin: 0 auto;                 /* understand why?? */
+    padding: 0;                     /* understand why?? */
     bottom: 0;
     width: 100%;
     list-style-type: none;
