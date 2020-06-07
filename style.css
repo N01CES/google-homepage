@@ -82,6 +82,11 @@ input[type=text] {
     box-shadow: none;
     border-radius: 24px;
     border-width: thin;
+    background-image: url("search-icon.png"), url("mic-icon.jpg");
+    background-size:3%, 5%;
+    background-position: 20px 16px, 435px 11px;
+    background-repeat: no-repeat;
+    
 }
 
 .botns {
@@ -133,4 +138,66 @@ input[type=text] {
 .country {
     text-decoration: none;
     color: rgb(0, 0, 194);
+}
+
+.mex {
+    position: fixed;
+    margin: 0 auto;
+    padding: 0;
+    bottom: 36px;
+    width: 100%;
+    overflow: hidden;
+    color: rgba(0,0,0,.54);
+    background-color: rgb(242, 242, 242);
+    border-top: 1px solid rgb(228, 228, 228);
+    float: left;
+    display: block;
+    padding: 10px 0 10px 30px;
+    text-decoration: none;
+    color: rgb(95, 99, 104);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+
+ul {
+    position: fixed;
+    margin: 0 auto;                      /* understain why?? */
+    padding: 0;                     /* understain why?? */
+    bottom: 0;
+    width: 100%;
+    list-style-type: none;
+    overflow: hidden;
+    color: rgba(0,0,0,.54);
+    background-color: rgb(242, 242, 242);
+    border-top: 1px solid rgb(228, 228, 228);
+    
+}
+
+
+
+.ad, .bu, .ab, .hsw {
+    float: left;
+}
+
+.pr, .te, .se{
+    float: right;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 10px 8px;
+    text-decoration: none;
+    color: rgb(95, 99, 104);
+}
+
+.r-side {
+    position: relative;
+    display: block;
+    padding-right: 30px;
+}
+.l-side {
+    position: relative;
+    display: block;
+    padding-left: 20px;
 }
